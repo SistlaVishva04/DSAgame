@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DSA Quest: The Complete Journey</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <div class="header">
+            <h1>🗡️ DSA Quest: The Complete Journey ⚔️</h1>
+            <p>Master Data Structures & Algorithms in the proper learning order</p>
+        </div>
+
+        <div class="player-stats">
+            <div class="stat-card">
+                <h3>⚔️ Level</h3>
+                <div id="player-level">1</div>
+                <div class="level-progress">
+                    <div class="progress-bar" id="xp-bar" style="width: 0%"></div>
+                </div>
+                <div id="xp-text">0 / 100 XP</div>
+            </div>
+            <div class="stat-card">
+                <h3>📚 Topics Mastered</h3>
+                <div id="topics-completed">0 / 12</div>
+            </div>
+            <div class="stat-card">
+                <h3>⭐ Mastery Points</h3>
+                <div id="mastery-points">0</div>
+            </div>
+            <div class="stat-card">
+                <h3>🛡️ Current Title</h3>
+                <div id="player-title">Coding Novice</div>
+            </div>
+            <div class="stat-card">
+                <h3>🔥 Learning Streak</h3>
+                <div id="learning-streak">0 days</div>
+            </div>
+        </div>
+
+        <div class="learning-path">
+            <div class="path-title">📈 Your Learning Path</div>
+            <p>Follow this carefully designed sequence to build your DSA knowledge step by step. Each topic builds upon the previous ones!</p>
+        </div>
+
+        <div class="world-map" id="world-map">
+            <!-- Topics will be generated here -->
+        </div>
+
+        <div id="achievements-section">
+            <h2>🏆 Recent Achievements</h2>
+            <div id="achievements-list"></div>
+        </div>
+    </div>
+
+    <!-- Topic Detail Modal -->
+    <div id="topic-modal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <div id="topic-content"></div>
+        </div>
+    </div>
+
+    <script src="game.js"></script>
+</body>
+</html>
+
+
