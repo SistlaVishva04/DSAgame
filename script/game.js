@@ -30,7 +30,7 @@
                 whyImportant: "Without solid basics, advanced topics become impossible. This foundation supports everything you'll learn next!",
                 realWorldUse: "Every single program ever written uses these concepts. From mobile apps to AI systems!",
                 resources: {
-                    w3schools: "https://www.w3schools.com/python/python_intro.asp",
+                    w3schools: "https://www.w3schools.com/programming/prog_programming.php",
                     gfg: "https://www.geeksforgeeks.org/fundamentals-of-algorithms/",
                     practice: "https://www.hackerrank.com/domains/algorithms"
                 },
